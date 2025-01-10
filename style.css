@@ -1,0 +1,665 @@
+.nav1{
+    background-color: #f8f1e5;
+    box-shadow: 0px 3px 3px black;
+    padding: 10px;
+}
+.nav-item{
+    width: 150px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s ease-in all;
+    margin: 5px;
+}
+.nav-link{
+    color: #800000;
+    transition: 0.5s ease-in all !important;
+}
+.nav-item:hover{
+    background-color: #0369dd;
+    box-shadow: 2px 2px 2px black;
+}
+.nav-item:hover .nav-link{
+    color: #f8f1e5;
+}
+.active1{
+    background-color: #50c878 !important;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+.dropdown-menu{
+    background-color: #f8f1e5 !important;
+}
+.dropdown-menu a{
+    transition: 0.5s ease-in all;
+}
+.dropdown-menu a:hover{
+    background-color: #0369dd;
+    color: #f8f1e5;
+}
+.pmd{
+    font-family: 'dm serif text';
+    background-color: #50c878;
+    color: #800000;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 10px 5px 0 0;
+    font-size: 18px;
+    box-shadow: -2px 2px 1px black;
+    transition: 0.5s ease all;
+}
+.rt03{
+    position: absolute;
+    margin-top: 5px;
+    font-family: 'bebas neue';
+    background-color: #0369dd;
+    color: #f8f1e5;
+    padding: 5px;
+    margin-left: 0;
+    font-size: 18px;
+    box-shadow: -2px -2px 1px black;
+    border-radius: 0 0 10px 5px;
+    transition: 0.5s ease all;
+}
+.navbar-brand:hover .pmd, 
+.navbar-brand:hover .rt03{
+    padding: 10px;
+}
+
+.brnd1{
+    margin-top: 88px;
+    background-image: url(img/20250104_202217.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: 20%;
+    box-shadow: 0px 5px 5px black;
+}
+.brnd1 .container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    width: 60%;
+}
+.brnd1 h1{
+    font-family: 'dm serif text';
+    color: #f8f1e5;
+    text-shadow: 2px 2px 4px black;
+}
+.brnd1 p{
+    color: white;
+    font-family: 'montserrat';
+    font-size: 14px;
+}
+
+.bngks-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner video{
+    height: max-content;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+}
+
+.kgtn-trbr{
+    background-color: #f8f1e5;
+    padding: 10px;
+}
+.kgtn-trbr .container .bngks{
+    display: flex;
+}
+.isi-kgtn-trbr{
+    display: flex;
+    margin: 10px;
+    border: 1px solid #0369dd;
+    border-radius: 10px;
+    width: 50%;
+    font-family: 'montserrat';
+    padding: 10px;
+}
+.isi-kgtn-trbr a{
+    background-color: #800000;
+    color: #f8f1e5;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: -1px;
+    transition: 0.5s all ease;
+}
+.isi-kgtn-trbr a:hover{
+    padding: 10px;
+    background-color: #50c878;
+    color: #f8f1e5;
+}
+.isi-kgtn-trbr h2{
+    font-weight: 600;
+    font-family: 'dm serif text';
+}
+.isi-kgtn-trbr p{
+    width: 80%;
+}
+.isi-kgtn-trbr img{
+    height: 250px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: 1s ease all;
+}
+.isi-kgtn-trbr img:hover{
+    transform: scale(1.05);
+}
+.kgtn-trbr h1{
+    font-family: 'dm serif text';
+    color: #800000;
+}
+.kgtn-trbr button{
+    background-color: #800000;
+    font-family: 'montserrat';
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    letter-spacing: -1px;
+    transition: 0.5s ease all;
+}
+.kgtn-trbr button a{
+    color: #800000;
+    text-decoration: none;
+}
+.kgtn-trbr button:hover{
+    padding: 10px;
+    background-color: #50c878;
+}
+.kgtn-trbr button a{
+    color: #f8f1e5;
+}
+
+.dpn-artikel h1{
+    font-family: 'dm serif text';
+}
+.artikel{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+.plhn-artikel{
+    background-color: #f8f1e5;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'bebas neue';
+    transition: 0.5s ease all;
+}
+.plhn-artikel:hover{
+    background-color: #50c878;
+    transform: scale(1.05);
+}
+.artikel:hover > :not(:hover){
+    filter: brightness(50%);
+    padding: 5px;
+}
+.plhn-artikel a{
+    text-decoration: none;
+    color: #800000;
+}
+.plhn-artikel img{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.dpn-produk{
+    background-color: #f8f1e5;
+    padding: 20px;
+    font-family: 'dm serif text';
+}
+.dpn-produk h4, p, a{
+    font-family: 'montserrat';
+}
+.dpn-produk p{
+    font-size: 16px;
+}
+.dpn-produk .container .brnd-produk{
+    display: flex;
+}
+.pilihan-produk{
+    background-color: #cbf7cb;
+    border: 1px #800000 solid;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.pilihan-produk img{
+    width: 50%;
+}
+.dpn-produk button{
+    background-color: #0369dd;
+    border: 0;
+    font-family: 'montserrat';
+    border-radius: 5px;
+    padding: 5px;
+    color: #f8f1e5;
+    transition: 0.5s ease all;
+}
+.dpn-produk button:hover{
+    background-color: #800000;
+    transform: scale(1.1);
+    color: #f8f1e5;
+}
+.dpn-produk a{
+    color: #f8f1e5;
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 10px;
+    border-top: 1px solid gainsboro;
+}
+footer p{
+    font-family: 'montserrat';
+    font-size: 14px;
+}
+footer img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.smbtn .container{
+    display: flex;
+    margin-top: 90px;
+}
+.smbtn img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.smbtn div{
+    margin: 20px;
+}
+.smbtn h1{
+    font-family: 'dm serif text';
+}
+.smbtn h3{
+    font-family: 'montserrat';
+}
+.smbtn p{
+    font-family: 'roboto';
+}
+
+.tujuan{
+    background-color: #f8f1e5;
+    padding: 10px;
+}
+.tujuan .container{
+    display: flex;
+    justify-content: center;
+}
+.tujuan img{
+    width: 40%;
+    margin: 20px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%)
+    contrast(110%);
+    box-shadow: -3px 2px 2px black;
+}
+.tujuan .container div{
+    margin: 10px;
+    font-family: 'dm serif text';
+}
+.tujuan ul span{
+    width: 20px;
+    height: 20px;
+    background-color: #800000;
+}
+.tujuan ul{
+    list-style: none;
+    padding-left: 0;
+}
+.tujuan li{
+    position: relative;
+    padding-left: 35px !important;
+    margin: 20px;
+    font-size: 14px;
+    font-family: 'roboto';
+    background-color: #cbf7cb;
+    color: #800000;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all ease 0.5s;
+}
+.tujuan li:hover{
+    transform: scale(1.05);
+}
+.tujuan .tjn-1::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(img/1.png);
+    background-size: cover;
+    background-color: #50c878;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px black;
+}
+.tujuan .tjn-2::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(img/2.png);
+    background-size: cover;
+    background-color: #50c878;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px black;
+}
+
+.tujuan .tjn-3::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(img/3.png);
+    background-size: cover;
+    background-color: #50c878;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px black;
+}
+
+.tujuan .tjn-4::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(img/4.png);
+    background-size: cover;
+    background-color: #50c878;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px black;
+}
+
+.tujuan .tjn-5::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(img/5.png);
+    background-size: cover;
+    background-color: #50c878;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px black;
+}
+
+.anggota .container{
+    display: flex;
+    font-family: 'dm serif text';
+}
+.dftr-anggota{
+    margin: 10px;
+    text-align: center;
+    background-color: #cbf7cb;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease all;
+}
+.dftr-anggota:hover{
+    transform: scale(1.05);
+}
+.anggota img{
+    width: 65%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.awl-program{
+    margin-top: 90px;
+    background-image: url(img/foto-kmpl1.jpg);
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.awl-program .container div{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    font-family: 'dm serif text';
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(59, 43, 43, 0.711);
+}
+.awl-program p{
+    font-family: 'roboto';
+    color: black;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.program .container .bngks-program{
+    display: flex;
+}
+.program .container .bngks-program{
+    display: none; /* Default semua produk disembunyikan */
+}
+.program .container .bngks-program.visible {
+    display: flex; /* Produk ditampilkan jika kelas 'visible' ada */
+}
+.program .container .bngks-program:nth-child(-n+2) {
+    display: flex; /* Selalu tampilkan 3 produk pertama */
+}
+.program button{
+    background-color: #cbf7cb;
+    font-family: 'roboto';
+    letter-spacing: -0.5px;
+    border: 1px solid #0369dd;
+    color: #800000;
+    padding: 5px;
+    transition: 0.5s ease all;
+    border-radius: 10px;
+}
+.program button:hover{
+    background-color: #800000;
+    color: #f8f1e5;
+    border: 1px solid #800000;
+    padding: 10px !important;
+}
+
+
+@media (max-width: 992px){
+    .nav-item{
+        width: 100%;
+    }
+    .brnd1{
+        background-image: url(img/1735992263705.jpg);
+        height: 500px;
+    }
+    .brnd1 .container{
+        top: 30%;
+        transform: translate(-50%, -30%);
+    }
+
+    .banner video{
+        width: 30%;
+    }
+
+    .isi-kgtn-trbr h2{
+        font-size: 24px;
+    }
+    .isi-kgtn-trbr p{
+        font-size: 14px;
+    }
+    .isi-kgtn-trbr img{
+        height: 200px;
+        align-self: center;
+    }
+    .isi-kgtn-trbr a{
+        font-size: 14px;
+    }
+
+    .plhn-artikel h2{
+        font-size: 22px;
+    }
+
+    .pilihan-produk img{
+        width: 80%;
+        margin: 5px;
+    }
+    .pilihan-produk p{
+        font-size: 14px;
+    }
+    .pilihan-produk h4{
+        font-size: 18px;
+    }
+
+    .dftr-anggota h4{
+        font-size: 18px !important;
+    }
+    .dftr-anggota p{
+        font-size: 14px !important;
+    }
+    .anggota img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px){
+    .brnd1 h1{
+        font-size: 38px;
+    }
+    .brnd1 p{
+        backdrop-filter: brightness(50%);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .banner{
+        margin-top: 100px;
+        margin-bottom: -20px;
+    }
+    .banner video{
+        width: 50%;
+    }
+
+    .kgtn-trbr .container .bngks{
+        flex-direction: column;
+    }
+    .isi-kgtn-trbr{
+        flex-direction: column;
+        width: 100%;
+    }
+    .isi-kgtn-trbr img{
+        border-radius: 0;
+    }
+    .isi-kgtn-trbr div{
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+
+    .artikel{
+        flex-direction: column;
+    }
+    .plhn-artikel{
+        margin: 5px;
+    }
+
+    .brnd-produk{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .pilihan-produk{
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .smbtn .container{
+        flex-direction: column;
+    }
+    .smbtn div{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .smbtn img{
+        margin-bottom: 10px;
+        margin: 0;
+        width: 100%;
+    }
+    .smbtn h1{
+        font-size: 32px !important;
+    }
+
+    .tujuan .container{
+        flex-direction: column;
+    }
+    .tujuan img{
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .tujuan div{
+        margin: 0;
+    }
+    .tujuan h1{
+        font-size: 32px !important;
+    }
+    .tujuan ul{
+        margin: 0;
+    }
+    .tujuan li{
+        margin-left: 0;
+        font-size: 14px;
+        margin: 5px;
+        width: 100%;
+    }
+
+    .anggota .container{
+        flex-direction: column;
+    }
+    .anggota img{
+        width: 60%;
+        height: 200px !important;
+    }
+    .anggota h1{
+        font-size: 32px !important;
+    }
+    .anggota h4{
+        font-size: 28px !important;
+    }
+}
