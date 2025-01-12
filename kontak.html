@@ -11,9 +11,13 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     /> 
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Kanit&family=Montserrat:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -29,7 +33,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active1" href="index.html">Beranda</a>
+                            <a class="nav-link" href="index.html">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
@@ -38,7 +42,7 @@
                             <a class="nav-link" href="program.html">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="kontak.html">Kontak Kami</a>
+                            <a class="nav-link active1" href="kontak.html">Kontak Kami</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,115 +61,99 @@
         </div>
     </div>
     <!-- tutup navbar -->
-
-    <!--  -->
-    <div class="brnd1">
-        <div class="container">
-            <h1>Selamat Datang</h1>
-            <p>Ini adalah website yang dibuat oleh muda dan mudi RT 03, website ini dibuat untuk menunjukkan Desa kami ke mata dunia</p>
-        </div>
-    </div>
-    <!--  -->
-
-    <!-- buka banner -->
-    <div class="container bngks-banner">
-        <div class="banner">
-            <video autoplay muted loop>
-                <source src="img/vid_rajaban.mp4" type="video/mp4">
-                Browser anda tidak mendukung tag video.
-            </video>
-        </div>
-    </div>
-    <!-- tutup banner -->
-    <br><br>
-    <!-- kegiatan terbaru -->
-    <div class="kgtn-trbr">
-        <div class="container">
-            <h1>Kegiatan Terbaru</h1>
-            <div class="bngks">
-                <div class="isi-kgtn-trbr">
-                    <img src="img/bazar-rajaban.png" alt="">
-                    <div>
-                        <h2>Isra Miraj 1446 H</h2>
-                        <p>Kegiatan ini kami buat untuk memperingati Isra Miraj 1446 Hijriah</p>
-                        <a href="#">Lihat Detailnya</a>
-                    </div>
-                </div>
-                <div class="isi-kgtn-trbr">
-                    <img src="img/bazar-rajaban.png" alt="">
-                    <div>
-                        <h2>Isra Miraj 1446 H</h2>
-                        <p>Kegiatan ini kami buat untuk memperingati Isra Miraj 1446 Hijriah</p>
-                        <a href="#">Lihat Detailnya</a>
-                    </div>
-                </div>
-            </div>
-            <button><a href="#">Lihat Lebih Banyak</a></button>
-        </div>
-    </div>
-    <!-- tutup kegiatan terbaru -->
-    <br><br>
-    <!-- buka artikel -->
-    <div class="dpn-artikel">
-        <div class="container">
-            <h1>Artikel Kami</h1>
-            <div class="artikel">
-                <div class="plhn-artikel">
-                    <a href="#">
-                        <img src="img/WhatsApp Image 2025-01-04 at 17.53.58_8a08de82.jpg" alt="">
-                        <h2>Isra Miraj 1446 H</h2>
-                    </a>
-                </div>
-                <div class="plhn-artikel">
-                    <a href="#">
-                        <img src="img/WhatsApp Image 2025-01-04 at 17.53.58_8a08de82.jpg" alt="">
-                        <h2>Isra Miraj 1446 H</h2>
-                    </a>
-                </div>
-                <div class="plhn-artikel">
-                    <a href="#">
-                        <img src="img/WhatsApp Image 2025-01-04 at 17.53.58_8a08de82.jpg" alt="">
-                        <h2>Isra Miraj 1446 H</h2>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- tutup artikel -->
-    <br><br>
-    <!-- buka produk -->
-    <div class="dpn-produk">
-        <div class="container">
-            <h1>Produk Desa Kami</h1>
-            <div class="brnd-produk">
-                <div class="pilihan-produk">
-                    <img src="img/bazar-rajaban.png" alt="">
-                    <h2>Nama Produk</h2>
-                    <h4>Rp10.000,00</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iste.</p>
-                    <button>Pesan Sekarang</button>
-                </div>
-                <div class="pilihan-produk">
-                    <img src="img/bazar-rajaban.png" alt="">
-                    <h2>Nama Produk</h2>
-                    <h4>Rp10.000,00</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iste.</p>
-                    <button>Pesan Sekarang</button>
-                </div>
-                <div class="pilihan-produk">
-                    <img src="img/bazar-rajaban.png" alt="">
-                    <h2>Nama Produk</h2>
-                    <h4>Rp10.000,00</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iste.</p>
-                    <button>Pesan Sekarang</button>
-                </div>
-            </div>
-            <button><a href="#">Lihat Lebih Banyak</a></button>
-        </div>
-    </div>
-    <!-- tutup produk -->
-    <br><br>
     
+    <!-- buka awal kontak -->
+    <div class="awl-kontak">
+        <div class="container">
+            <div class="kata-awl-kontak">
+                <h1>Kontak Kami</h1>
+                <p>Hubungi kami dan berikan kami saran, kami akan mengusahakan yang terbaik</p>
+            </div>
+            <div class="video-background">
+                <video autoplay muted loop>
+                    <source src="img/Contact us.mp4" type="video/mp4">
+                    Browser anda tidak mendukung tag video.
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- tutup awal kontak -->
+
+    <!-- buka kontak1 -->
+    <div class="kntk1">
+        <h1 class="container">
+            Kontak Kami
+        </h1>
+        <div class="container">
+            <a class="isi-kntk1" href="https://wa.me/0818029379832">
+                <div>
+                    <img src="img/whatsapp.png" alt="">
+                    <h2>+62 818-0293-79832</h2>
+                </div>  
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, itaque.</p>            
+            </a>
+            <a class="isi-kntk1" href="mailto://rtpemuda003@gmail.com">
+                <div>
+                    <img src="img/gmail.png" alt="">
+                    <h2>rtpemuda003@gmail.com</h2>
+                </div>  
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, itaque.</p>            
+            </a>
+            <a class="isi-kntk1" href="https://maps.app.goo.gl/kA9LvmZDphsZrSBe9">
+                <div>
+                    <img src="img/map.png" alt="">
+                    <h2>Dusun Karanggan </h2>
+                </div>  
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, itaque.</p>            
+            </a>
+        </div>
+    </div>
+    <!-- tutup kontak1 -->
+
+    <!-- buka kontak2 -->
+    <div class="kntk2">
+        <h1 class="container">
+            Hubungi Kami
+        </h1>
+        <div class="container">
+            <div class="form-kntk">
+                <form onsubmit="event.preventDefault(); if (validateForm()) { sendMail(); }">
+                    <div>
+                        <section>
+                            <input id="name" name="name" type="text" required="required">
+                            <label for="name">Nama Anda</label>
+                        </section>
+                        <section>
+                            <input id="nowa" name="nowa" type="number" required="required">
+                            <label for="nowa">No. WhatsApp Anda</label>
+                        </section>
+                    </div>
+                    <section class="inputan">
+                        <input id="email" name="email" type="email" required="required">
+                        <label for="email">Email Anda</label>
+                    </section>
+                    <section class="inputan">
+                        <textarea name="message" id="message" required="required"></textarea>
+                        <label for="message">Pesan Anda</label>
+                    </section class="inputan">
+                    <section class="inputan">
+                        <button type="submit">Kirim Pesan</button>
+                    </section>
+                </form>
+            </div>
+            <div class="medsos">
+                <h3>Ikuti Media Sosial Kami</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe laboriosam, eligendi repudiandae alias cupiditate amet.</p>
+                <div>
+                    <a href="https://www.instagram.com/pemudart003/profilecard/?igsh=MW5kZjYyZW5rYjE5cg==" target="_blank"><img src="img/instagram.png" alt="">@pemudart003</a>
+                    <a href="https://www.tiktok.com/@pemuda.rt038?_t=ZS-8sq5SpYGpy0&_r=1" target="_blank"><img src="img/tiktok.png" alt="">@pemuda.rt038</a>
+                    <a href="https://youtube.com/@pemudart003?si=zjPGBN3g3L5F_eeo" target="_blank"><img src="img/youtube.png" alt="">@pemudart003</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tutup kontak2 -->
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
         <!-- Section: Links  -->
@@ -199,7 +187,7 @@
                 <a href="tentang_kami.html" class="text-reset">Tentang</a>
                 </p>
                 <p>
-                <a href="program.html" class="text-reset">Program</a>
+                <a href="kontak.html" class="text-reset">kontak</a>
                 </p>
                 <p>
                 <a href="kontak.php" class="text-reset">Kontak Kami</a>
@@ -227,11 +215,11 @@
                 <a href="https://wa.me/+6281802937932" class="text-reset" target="_blank">+62 818 0293 7932</a>
                 </p>
                 <p>
-                <img src="img/whatsapph.png" alt="">
+                <img src="img/instagramh.png" alt="">
                 <a href="https://www.instagram.com/pemudart003/profilecard/?igsh=MW5kZjYyZW5rYjE5cg==" class="text-reset" target="_blank">@pemudart003</a>
                 </p>
                 <p>
-                <img src="img/whatsapph.png" alt="">
+                <img src="img/tik-tokh.png" alt="">
                 <a href="https://www.tiktok.com/@pemuda.rt038?_t=ZS-8sq5SpYGpy0&_r=1" class="text-reset" target="_blank">@pemuda.rt038</a>
                 </p>
             </div>
@@ -259,6 +247,61 @@
     </footer>
   <!-- Footer -->
   
+  <script>
+    // kirim email
+    (function () {
+        emailjs.init("5dSHmkRa_qfHMTe8N");
+    })();
+
+    function sendMail() {
+        var params = {
+            name: document.querySelector("#name").value,
+            nowa: document.querySelector("#nowa").value,
+            email: document.querySelector("#email").value,
+            message: document.querySelector("#message").value,
+        };
+        console.log(params);
+
+        var serviceID = "service_amvx8rg";
+        var templateID = "template_aw89fw9";
+
+        emailjs.send(serviceID, templateID, params)
+            .then((res) => {
+                Swal.fire({
+                    title: "Pesanmu Berhasil Terkirim",
+                    text: "Pesanmu telah terkirim dan kami terima.",
+                    icon: "success",
+                    confirmButtonText: "OK",
+                });
+            })
+            .catch((err) => {
+                Swal.fire({
+                    title: "Error!",
+                    text: "Pesanmu gagal terkirim. Silakan coba lagi.",
+                    icon: "error",
+                    confirmButtonText: "OK",
+                });
+            });
+    }
+
+    // validasi form
+    function validateForm() {
+        var name = document.querySelector("#name").value.trim();
+        var email = document.querySelector("#email").value.trim();
+        var message = document.querySelector("#message").value.trim();
+    
+        if (!name || !email || !message) {
+            Swal.fire({
+                title: "Error!",
+                text: "Semua field wajib diisi!",
+                icon: "error",
+                confirmButtonText: "OK",
+            });
+            return false; // Mencegah pengiriman form
+        }
+        return true;
+    }
+  </script>
     <script
           src="bootstrap/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
