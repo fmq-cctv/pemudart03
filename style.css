@@ -570,6 +570,7 @@ footer img{
 
 .kntk2{
     background-color: #f8f1e5;
+    padding: 20px;
 }
 .kntk2 h1{
     font-family: 'dm serif text';
@@ -609,6 +610,9 @@ footer img{
     position: relative;
     margin: 5px;
     width: 50%;
+}
+.kntk2 .form-kntk img{
+    display: none;
 }
 .kntk2 input{
     width: 100%;
@@ -701,6 +705,8 @@ footer img{
     margin: 10px;
     background-color: #cbf7cb;
     text-align: center;
+    padding: 15px;
+    border-radius: 10px;
 }
 .kntk2 .medsos h3{
     font-weight: 500;
@@ -790,6 +796,16 @@ footer img{
 
     .program h1{
         font-size: 40px;
+    }
+
+    .kntk1 .container{
+        flex-direction: column;
+    }
+    .isi-kntk1{
+        width: 100% !important;
+    }
+    .isi-kntk1 h2{
+        font-size: 20px;
     }
 
 }
@@ -941,5 +957,94 @@ footer img{
     }
     .program .isi-kgtn-trbr div{
         margin-left: 5px;
+    }
+
+    .awl-kontak .video-background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        z-index: -1;
+        overflow: hidden;
+        margin-top: 90px;
+    }
+    .awl-kontak video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .kata-awl-kontak{
+        position: relative;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+        z-index: 1;
+        color: white;
+        backdrop-filter: brightness(50%)
+        blur(1px);
+        padding: 10px;
+        margin-top: 50%;
+        border-radius: 10px;
+    }
+    .kata-awl-kontak h1{
+        font-size: 32px;
+    }
+    .kata-awl-kontak p{
+        font-size: 14px;
+    }
+
+    .kntk1 .container a{
+        width: 80% !important;
+        align-self: center;
+    }
+    .kntk1 h1{
+        font-size: 32px;
+    }
+    .kntk1 .container a h2{
+        font-size: 20px;
+    }
+    .kntk2 .container{
+        flex-direction: column;
+    }
+    .kntk2 .container .form-kntk, .kntk2 .container .medsos{
+        width: 100%;
+    }
+    .kntk2 .container .form-kntk label{
+        display: none;
+    }
+    .kntk2 .form-kntk img{
+        display: block;
+        font-family: 'kanit';
+        position: absolute;
+        left: 0;
+        padding: 10px;
+        color: #0369dd;
+        transition: 0.5s all;
+    }
+    .kntk2 input:valid ~ img,
+    .kntk2 input:focus ~ img{
+        color: #800000;
+        transform: translateX(10px) translateY(-11px);
+        padding: 0 5px;
+        width: 30px;
+        background-color: white;
+        border-left: 1px solid #800000;
+        border-right: 1px solid #800000;
+    }
+    .kntk2 textarea:valid ~ img,
+    .kntk2 textarea:focus ~ img{
+        color: #800000;
+        transform: translateX(10px) translateY(-11px);
+        padding: 0 5px;
+        width: 30px;
+        background-color: white;
+        border-left: 1px solid #800000;
+        border-right: 1px solid #800000;
+    }
+    .kntk2 button{
+        font-size: 16px !important;
+        text-transform: capitalize;
+        width: max-content;
     }
 }
