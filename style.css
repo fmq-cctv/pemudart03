@@ -1,7 +1,6 @@
 .nav1{
     background-color: #f8f1e5;
     box-shadow: 0px 3px 3px black;
-    padding: 10px;
 }
 .nav-item{
     width: 150px;
@@ -826,6 +825,105 @@ footer img{
     scale: 1.05;
 }
 
+.awl-isramiraj{
+    margin-top: 10%;
+    text-align: center;
+}
+.awl-isramiraj img{
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
+    margin: 20px;
+}
+.tgh-isramiraj{
+    display: flex;
+}
+.tgh-isramiraj .img-isramiraj{
+    width: 70%;
+    height: 480px;
+    background-image: url(img/hijau\ biru\ ilustrasi\ bazzar\ umkm\ poster.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* accordion */
+.accordion-full{
+    font-family: 'dm serif text';
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-container {
+    gap: 20px;
+    width: 100%; /* Atur lebar total container */
+    justify-content: center;
+  }
+  .accordion {
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #FBFBFB;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  .accordion-header span{
+    padding-left: 5px;
+  }
+  .accordion-header {
+    background-color: #800000;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    align-items: center;
+    display: flex; /* Gunakan Flexbox */
+    outline: none;
+    transition: background-color 0.5s ease;
+    font-size: 16px;
+    width: 100%;
+  }
+  .accordion-header:hover {
+    background-color: white;
+    color: black;
+  }
+  .accordion-header:hover .drop{
+    transform: rotate(90deg);
+  }
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    color: black;
+    background-color: #FBFBFB;
+    padding: 0 15px;
+    text-align: left;
+    transition: max-height 0.5s ease;
+    font-family: 'montserrat';
+  }
+  .accordion-content p, ul{
+    margin: 0;
+    padding: 15px 0;
+  }
+  .drop{
+    transition: all 0.5s;
+    font-weight: 900;
+    transform: rotate(270deg) translateX(-3px);
+    display: inline-block;
+  }
+
+  .file-isramiraj .accordion-content div{
+    display: flex;
+  }
+  .file-isramiraj li{
+    padding: 2px;
+  }
+  .file-isramiraj a{
+    color: #024188;
+  }
+
 @media (max-width: 992px){
     .nav-item{
         width: 100%;
@@ -896,6 +994,17 @@ footer img{
         font-size: 20px;
     }
 
+    .awl-isramiraj img{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .tgh-isramiraj .img-isramiraj{
+        width: 150%;
+    }
+    .file-isramiraj{
+        margin-top: -90px;
+    }
 }
 
 @media (max-width: 500px){
@@ -1157,4 +1266,28 @@ footer img{
         max-height: 90%;
         position: relative;
     } 
+
+    
+    .tgh-isramiraj{
+        display: block;
+    }
+    .tgh-isramiraj .img-isramiraj{
+        display: inline-block;
+        width: 80%;
+        margin-top: -50px;
+        margin-left: 30px;
+        margin-bottom: -55px;
+    }
+    .accordion-full{
+        margin: 0;
+    }
+    .accordion-container{
+        font-size: 15px;
+    }
+    .awl-isramiraj{
+        margin-top: 25%;
+    }
+    .file-isramiraj{
+        margin-top: 5px;
+    }
 }
