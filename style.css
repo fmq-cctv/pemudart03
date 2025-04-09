@@ -908,7 +908,7 @@ footer img{
     padding: 15px 0;
   }
   .drop{
-    transition: all 0.5s;
+    transition: all 1s;
     font-weight: 900;
     transform: rotate(270deg) translateX(-3px);
     display: inline-block;
